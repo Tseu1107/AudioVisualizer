@@ -5,7 +5,7 @@ import Visualizer from './Visualizer';
 const Scene = ({ analyzer }) => {
   return (
     <Canvas camera={{ position: [0, 0, 5] }}>
-      <color attach="background" args={['black']} />
+      <color attach="background" args={['white']} />
       <ambientLight intensity={0.5} />
       <pointLight position={[10, 10, 10]} />
       <Stars 

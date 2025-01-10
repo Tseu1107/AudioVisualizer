@@ -51,8 +51,8 @@ const Visualizer = ({ analyzer }) => {
       <icosahedronGeometry ref={geometryRef} args={[1, 4]} />
       <meshPhongMaterial 
         wireframe 
-        color="#ff3366"
-        emissive="#ff3366"
+        color="#8712B8"
+        emissive="#8712B8"
         emissiveIntensity={0.5}
       />
     </mesh>
